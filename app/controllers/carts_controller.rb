@@ -19,7 +19,7 @@ class CartsController < ApplicationController
 
   # PATCH /cart/add_item
   def add_item
-    @cart_product.update!(quantity: cart_params[:quantity])
+    @cart_product.update!(quantity: @cart_product.quantity + cart_params[:quantity])
     render json: cart_payload(@cart), status: :ok
   end
 
