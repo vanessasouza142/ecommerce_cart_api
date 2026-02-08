@@ -216,3 +216,14 @@ bundle exec rspec
 
 ### Como enviar seu projeto
 Salve seu código em um versionador de código (GitHub, GitLab, Bitbucket) e nos envie o link publico. Se achar necessário, informe no README as instruções para execução ou qualquer outra informação relevante para correção/entendimento da sua solução.
+
+---
+
+### Informações Importantes do Projeto a ser Avaliado
+
+## Documentação
+
+A documentação dessa API foi desenvolvida e pode ser acessada através do Postman.
+
+1. Acesse a documentação no link abaixo:
+   > https://documenter.getpostman.com/view/23291260/2sBXc8qizw
