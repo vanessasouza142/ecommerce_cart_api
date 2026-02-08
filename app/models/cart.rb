@@ -9,4 +9,22 @@ class Cart < ApplicationRecord
       cart_product.total_price
     end
   end
+
+  def mark_as_abandoned
+    return if abandoned?
+    return unless updated_at < 3.hours.ago 
+
+    update!(abandoned: true, abandoned_at: Time.current)
+  end
+
+  def remove_if_abandoned
+    return unless abandoned?
+    return unless abandoned_at < 7.days.ago
+
+    destroy
+  end
+
+  def abandoned?
+    abandoned
+  end
 end
