@@ -9,6 +9,4 @@ class Cart < ApplicationRecord
       cart_product.total_price
     end
   end
-
-  # TODO: lógica para marcar o carrinho como abandonado e remover se abandonado
 end
