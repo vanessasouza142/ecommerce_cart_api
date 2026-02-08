@@ -1,0 +1,11 @@
+mark_carts_as_abandoned:
+  cron: "0 * * * *"   # roda a cada hora
+  class: "MarkCartsAsAbandonedJob"
+  queue: default
+  description: "Marca carrinhos como abandonados"
+
+remove_abandoned_carts:
+  cron: "0 0 * * *"   # roda todo dia à meia-noite
+  class: "RemoveAbandonedCartsJob"
+  queue: default
+  description: "Remove carrinhos abandonados"

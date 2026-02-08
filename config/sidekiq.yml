@@ -1,6 +1,8 @@
 :concurrency: 3
 :timeout: 60
 :verbose: true
+:scheduler:
+  :schedule_file: config/sidekiq_scheduler.yml
 :queues:
   - critical
   - default
