@@ -219,9 +219,9 @@ Salve seu código em um versionador de código (GitHub, GitLab, Bitbucket) e nos
 
 ---
 
-### Informações Importantes do Projeto a ser Avaliado
+## Informações Importantes do Projeto Avaliado
 
-## Documentação
+### Documentação
 
 A documentação dessa API foi desenvolvida e pode ser acessada através do Postman.
 
